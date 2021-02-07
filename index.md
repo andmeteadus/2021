@@ -91,9 +91,9 @@ Aine läbimiseks on vaja:
 
 # Kontakt ja küsimused
 
-![](lektor.jpg =250x)
+<img src="lektor.jpg" width="200"/>
 
-Kaur Lumiste 
+Kaur Lumiste <\br>
 Delta majas (Narva mnt 18) kabinet 4079
 kaur.lumiste [at] ut.ee
 
