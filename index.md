@@ -91,8 +91,12 @@ Aine läbimiseks on vaja:
 
 # Kontakt ja küsimused
 
-* Kaur Lumiste kaur.lumiste [at] ut.ee ja Delta majas (Narva mnt 18) kabinet 4079.
+![](lektor.jpg)
 
+Kaur Lumiste 
+Delta majas (Narva mnt 18) kabinet 4079
+kaur.lumiste [at] ut.ee
+
+
+Antud kursust toetab [DataCamp](https://www.datacamp.com/). Aines osalejatel on võimalus võtta kõiki DataCamp kursuseid tasuta. Kõigest täpsemalt esimeses praktikumis.
 ![](DataCamp.png "DataCamp")
-
-Antud kursust toetab [DataCamp](https://www.datacamp.com/). Aines osalejatel on võimalus võtta kõiki DataCamp kursuseid tasuta.
