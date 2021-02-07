@@ -93,8 +93,8 @@ Aine läbimiseks on vaja:
 
 <img src="lektor.jpg" width="200"/>
 
-Kaur Lumiste <\br>
-Delta majas (Narva mnt 18) kabinet 4079
+Kaur Lumiste <br>
+Delta majas (Narva mnt 18) kabinet 4079 <br>
 kaur.lumiste [at] ut.ee
 
 
