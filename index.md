@@ -91,7 +91,7 @@ Aine läbimiseks on vaja:
 
 # Kontakt ja küsimused
 
-![](lektor.jpg)
+![](lektor.jpg =250x)
 
 Kaur Lumiste 
 Delta majas (Narva mnt 18) kabinet 4079
