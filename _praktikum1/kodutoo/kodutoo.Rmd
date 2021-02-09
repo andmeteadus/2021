@@ -67,8 +67,8 @@ Kui tunned ennast veel ebakindlalt *dplyr* paketi kasutamise osas, siis soovitam
 
 # Mida on vaja esitada?
 
-* I osa ja II osa tuleb esitada vastused [Jupyter Notebook faili](../kodutood/kodutoo2.ipynb). 
-* II osa kohta tee andmeanalüüsi raport R-is, Rmarkdown keeles, ning väljasta raport (html või pdf formaadis), salvesta .png formaati (nt. [pdf2png.com](pdf2png.com) abil) ja lisa Jupyter faili. Lähtekood .Rmd failis kopeeri Jupyter Notebook faili.
+* I osa ja II osa tuleb esitada vastused [Jupyter Notebook faili](../data/kodutoo1.zip). 
+* II osa kohta tee andmeanalüüsi raport R-is, Rmarkdown keeles, ning väljasta raport (html või pdf formaadis), salvesta .png formaati (nt. [pdf2png.com](pdf2png.com) abil) ja lisa Jupyter fail. Lähtekood .Rmd failis kopeeri Jupyter Notebook faili.
 
 **NB! Kodutöö esitamisel nimeta fail kujul `<matrikli nr>_<kodutöö versioon>.ipynb`** (nt. `A12345_1.ipynb`). Kui kodutööst esitad mitu varianti (nt. parandad hilisemas versioonis mõne varasema vea), siis lisa versiooni nr faili nimesse.
 

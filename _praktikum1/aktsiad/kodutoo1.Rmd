@@ -164,7 +164,7 @@ Kasuta paketti `kableExtra`, et vormindada ühte või enamat raportis olevat tab
 
 ### Boonusülesanne 2 (3 punkti): andmete automaatne uuenemine
 
-Muuda kodutööd selliselt, et staatilise faili *Aktsiad 2020.csv* asemel kasutatakse reaalajas andmeid, mis on saadud portaalist *finance.yahoo.com*.
+Muuda kodutööd selliselt, et staatilise faili *Aktsiad 2021.csv* asemel kasutatakse reaalajas andmeid, mis on saadud portaalist *finance.yahoo.com*.
 
 Mõned näpunäited:
 
