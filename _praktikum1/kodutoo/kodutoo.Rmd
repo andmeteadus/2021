@@ -17,7 +17,7 @@ Jupyteri käivitamiseks:
 
 ![](jupyter_instructions2.png "Keskkonna käivitamine")
 
-**Kodutöö esitamiseks lae alla [Jupyter Notebook fail ja abifail](../data/kodutoo1.ipynb).**
+**Kodutöö esitamiseks lae alla [Jupyter Notebook fail ja abifail](../kodutood/kodutoo1.ipynb).**
 
 # I osa - veebiloengud, videod, artiklid (5 punkti)
 1. (**2 punkti**) Vaata Johns Hopkinsi reprodutseeritava analüüsi videosid:
