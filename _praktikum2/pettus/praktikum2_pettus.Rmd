@@ -150,11 +150,11 @@ Tee järgnevale joonisele võimalikult sarnane.
 
 Näpunäited:
 
-* Log-skaala kasutamiseks uuri [järgmisi ggplot2 näiteid.](http://docs.ggplot2.org/current/scale_continuous.html)
-* Legendi peitmiseks uuri [järgmisi ggplot2 näiteid.](http://docs.ggplot2.org/current/theme.html)  (märksõnaks on `legend.position`)
-* Käsuga `facet_wrap` saab joonise jaotada tükkideks (Mõned [näited](http://docs.ggplot2.org/current/facet_wrap.html).)
+* Log-skaala kasutamiseks uuri [järgmisi ggplot2 näiteid.](https://ggplot2.tidyverse.org/reference/scale_continuous.html)
+* Legendi peitmiseks uuri [järgmisi ggplot2 näiteid.](https://ggplot2.tidyverse.org/reference/theme.html)  (märksõnaks on `legend.position`)
+* Käsuga `facet_wrap` saab joonise jaotada tükkideks (Mõned [näited](https://ggplot2.tidyverse.org/reference/facet_wrap.html).)
 * Et muuta värvid vastavaks erakonna sümboolikaga, kasuta värve "#00983A", "#FFDE00","#E30613", "#009FE3","#8B4513", "#82368C" (vastavalt KESK, REF, SDE, IRL, EKRE, Muu).
-* Värvide muutmiseks uuri [järgmisi ggplot2 näiteid.](http://docs.ggplot2.org/current/scale_manual.html)
+* Värvide muutmiseks uuri [järgmisi ggplot2 näiteid.](https://ggplot2.tidyverse.org/reference/scale_manual.html)
 * Pööra tähelepanu n-ö akende pealkirjadele ja järjekorrale. Abiks võib olla funktsioon `factor`.
 
 
