@@ -144,6 +144,8 @@ Seejärel tee eelnevad joonised ka erakondade kaupa. Kommenteeri tulemusi.
 
 Tee järgnevale joonisele võimalikult sarnane. 
 
+![](erakonnad.png "Näide")
+
 ```{r, echo=FALSE, warning=FALSE, message=FALSE }
 # Kood
 ```
@@ -161,6 +163,8 @@ Näpunäited:
 ### Boonusülesanne 1 (2 punkti)
 
 Lisa hallid mummud taustale. Tulemus peaks olema selline:
+
+![](erakonnad_taustaga.png "Näide")
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE }
 #Kood
