@@ -1,5 +1,5 @@
 ---
-title: "Joonised paketiga ggplot2."
+title: "Joonised paketiga ggplot2"
 output: 
   html_document:
     theme: null
@@ -12,30 +12,30 @@ opts_chunk$set(warning=FALSE, message=FALSE, fig.width=6, fig.height=4)
 
 # Mis on ggplot2?
 
-*ggplot2* on populaarne R-i pakett, mis vıimaldab suhteliselt v‰hese vaevaga joonistada ilusaid graafikuid. Kuna joonised on ¸les ehitatud kiht kihi haaval, on tegu v‰ga paindliku tˆˆriistaga, sest ¸hel graafikul saab kombineerida erinevaid elemente. 
+*ggplot2* on populaarne R-i pakett, mis v√µimaldab suhteliselt v√§hese vaevaga joonistada ilusaid graafikuid. Kuna joonised on √ºles ehitatud kiht kihi haaval, on tegu v√§ga paindliku t√∂√∂riistaga, sest √ºhel graafikul saab kombineerida erinevaid elemente. 
 
-Suurep‰rane ¸levaate paketi vıimalustest annab **ggplot2 dokumentatsioon** <http://docs.ggplot2.org/current/>. 
+Suurep√§rane √ºlevaate paketi v√µimalustest annab **ggplot2 dokumentatsioon** <https://ggplot2.tidyverse.org/reference/index.html>. 
 
-*ggplot2* autoriks on [Hadley Wickham](http://had.co.nz/). Pakett toetub nn graafikute grammatikale (***Grammar of Graphics***), mille avaldas Leland Wilkinson 2005. aastal. Selle grammatika eesm‰rk on kirjeldada, mida ıieti kujutab endast ¸ks graafik. Nii nagu tavakeeles defineerib grammatika sınaliigid, mille kombineerimisel saame tekitada suvalisi lauseid, defineerib analoogiliselt graafikute grammatika sellised pıhikomponendid, mille kombineerimisel on vıimalik tekitada suvalisi graafikuid. Hadley on kirjutanud j‰rgnevat:
+*ggplot2* autoriks on [Hadley Wickham](http://had.co.nz/). Pakett toetub nn graafikute grammatikale (***Grammar of Graphics***), mille avaldas Leland Wilkinson 2005. aastal. Selle grammatika eesm√§rk on kirjeldada, mida √µieti kujutab endast √ºks graafik. Nii nagu tavakeeles defineerib grammatika s√µnaliigid, mille kombineerimisel saame tekitada suvalisi lauseid, defineerib analoogiliselt graafikute grammatika sellised p√µhikomponendid, mille kombineerimisel on v√µimalik tekitada suvalisi graafikuid. Hadley on kirjutanud j√§rgnevat:
 
 > In brief, the grammar tells us that a statistical graphic is a mapping from data to aesthetic attributes (colour, shape, size) of geometric objects (points, lines, bars).
 
 ## qplot() ja ggplot() erinevused
 
-Paketis on kaks funktsiooni jooniste tegemiseks, `qplot()` ning `ggplot()`. J‰rgnev loetelu aitab saada selgust, mis vahe neil funktsioonidel on. 
+Paketis on kaks funktsiooni jooniste tegemiseks, `qplot()` ning `ggplot()`. J√§rgnev loetelu aitab saada selgust, mis vahe neil funktsioonidel on. 
 
-Funktsioonil `qplot` on mıned eelised vırreldes `ggplot`-iga:
+Funktsioonil `qplot` on m√µned eelised v√µrreldes `ggplot`-iga:
 
-* **S¸ntaks** vıib esialgu tunduda **lihtsam**, kui on varasem kogemus R-i baasgraafikaga, samuti on kood pisut l¸hem.  
-* On vıimalik visualiseerida vektoreid, ilma et nad oleks mıne `data.frame`-i veerud. 
+* **S√ºntaks** v√µib esialgu tunduda **lihtsam**, kui on varasem kogemus R-i baasgraafikaga, samuti on kood pisut l√ºhem.  
+* On v√µimalik visualiseerida vektoreid, ilma et nad oleks m√µne `data.frame`-i veerud. 
 
-Siiski on `qplot`-il ka mitmeid puuduseid vırreldes vıimalusterohkema funktsiooniga `ggplot`:
+Siiski on `qplot`-il ka mitmeid puuduseid v√µrreldes v√µimalusterohkema funktsiooniga `ggplot`:
 
-* **Piiratud vıimalused**: *ggplot2* paketiga saab erinevate kihtide kombineerimisel teha v‰ga paindlikke jooniseid, aga `qplot` funktsioon vıimaldab korraga visualiseerida ainult ¸hte andmestikku, seejuures peavad kıigil kihtidel olema v‰rv, punktisuurus, kuju jne samasugused. 
-* `qplot` s¸ntaks **ei aita aru saada paketi loogikast** (mis pıhineb *Grammar of Graphics*-il), milliste kihtide kombineerimisel v‰ljundgraafik loodi. Nii ei teki s¸gavamat arusaamist, kuidas pakett toimib ning kuidas vajadusel modifitseerida jooniseid. 
-* Tegelikult on `qplot` funktsioon sisuliselt *wrapper* `ggplot` jaoks, nii et funktsiooniga `ggplot` saab teha kıike sedasama, mida `qplot`iga, aga `ggplot` on palju paindlikum. 
+* **Piiratud v√µimalused**: *ggplot2* paketiga saab erinevate kihtide kombineerimisel teha v√§ga paindlikke jooniseid, aga `qplot` funktsioon v√µimaldab korraga visualiseerida ainult √ºhte andmestikku, seejuures peavad k√µigil kihtidel olema v√§rv, punktisuurus, kuju jne samasugused. 
+* `qplot` s√ºntaks **ei aita aru saada paketi loogikast** (mis p√µhineb *Grammar of Graphics*-il), milliste kihtide kombineerimisel v√§ljundgraafik loodi. Nii ei teki s√ºgavamat arusaamist, kuidas pakett toimib ning kuidas vajadusel modifitseerida jooniseid. 
+* Tegelikult on `qplot` funktsioon sisuliselt *wrapper* `ggplot` jaoks, nii et funktsiooniga `ggplot` saab teha k√µike sedasama, mida `qplot`iga, aga `ggplot` on palju paindlikum. 
 
-Kuna funktsioon `ggplot` pakub oluliselt rohkem vıimalusi graafikute tegemiseks, kasutame k‰esolevas kursuses ainult funktsiooni `ggplot`. 
+Kuna funktsioon `ggplot` pakub oluliselt rohkem v√µimalusi graafikute tegemiseks, kasutame k√§esolevas kursuses ainult funktsiooni `ggplot`. 
 
 
 # Joonised funktsiooniga ggplot
@@ -44,7 +44,7 @@ Kuna funktsioon `ggplot` pakub oluliselt rohkem vıimalusi graafikute tegemiseks,
 library(ggplot2)
 ```
 
-Joonise tegemiseks tuleb alustada `ggplot` objekti konstrueerimisest. ‹ks vıimalus on seda teha j‰rgnevalt
+Joonise tegemiseks tuleb alustada `ggplot` objekti konstrueerimisest. √úks v√µimalus on seda teha j√§rgnevalt
 
 ```{r, eval=FALSE}
 library(ggplot2)
@@ -53,14 +53,14 @@ ggplot(andmed, aes(x = tunnus1, y = tunnus2))
 
 kus esimese argumendina on ette antud andmestik ning teise argumendina *aesthetic mapping*. Seejuures `aes()` argumendid peavad olema ette antud andmestiku veergude nimed.
 
-Praeguseks hetkeks pole veel vıimalik joonist vaadata, sest me pole joonisele ¸htegi kihti lisanud (st me pole spetsifitseerinud, milliseid elemente sooviksime joonisel n‰ha - antud *x, y* koordinaadid oleks vıimalik t‰histada nii punktidega, tulpadega, ¸hendada joontega jne). N‰iteks punktide joonistamiseks peaksime lisama joonisele punktide kihi k‰suga `geom_point()`.
+Praeguseks hetkeks pole veel v√µimalik joonist vaadata, sest me pole joonisele √ºhtegi kihti lisanud (st me pole spetsifitseerinud, milliseid elemente sooviksime joonisel n√§ha - antud *x, y* koordinaadid oleks v√µimalik t√§histada nii punktidega, tulpadega, √ºhendada joontega jne). N√§iteks punktide joonistamiseks peaksime lisama joonisele punktide kihi k√§suga `geom_point()`.
 
-J‰rgnevalt tutvume *ggplot2* vıimalustega n‰idete abil, mis pıhinevad iiriste andmestikul
+J√§rgnevalt tutvume *ggplot2* v√µimalustega n√§idete abil, mis p√µhinevad iiriste andmestikul
 
 ```{r}
 # lae andmestik "iris"
 data(iris)
-# vaatame andmestiku p‰ist
+# vaatame andmestiku p√§ist
 head(iris)
 ```
 
@@ -73,41 +73,41 @@ Hajuvusdiagrammi (*scatterplot*) tegemiseks
 ggplot(iris, aes(x = Sepal.Length, y = Petal.Length)) + geom_point()
 ```
 
-millele saame ka v‰rvi lisada `colour = tunnuse_nimi` (vıime `colour` asemel kasutada ka `color` vıi `col`)
+millele saame ka v√§rvi lisada `colour = tunnuse_nimi` (v√µime `colour` asemel kasutada ka `color` v√µi `col`)
 
 
 ```{r}
 ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) + geom_point()
 ```
 
-M‰rkus: Samasuguse joonise saame ka j‰rgnevate k‰skude tulemusena
+M√§rkus: Samasuguse joonise saame ka j√§rgnevate k√§skude tulemusena
 ```{r, eval=FALSE}
 # Eelistatud, kui soovime iga kihi jaoks kasutada erinevaid tunnuseid 
-# x, y koordinaatide jaoks, v‰rvi jaoks jne, 
-# aga andmestik oleks kıigi kihtide jaoks sama
+# x, y koordinaatide jaoks, v√§rvi jaoks jne, 
+# aga andmestik oleks k√µigi kihtide jaoks sama
 ggplot(iris) + geom_point(aes(x = Sepal.Length, y = Petal.Length, colour = Species))
 # Eelistatud, kui soovime iga kihi jaoks kasutada erinevaid andmestikke
 ggplot() + geom_point(data=iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species))
 
 ```
 
-[Siin](http://docs.ggplot2.org/current/ggplot.html) on n‰ide, kuidas erinevate kihtide jaoks kasutada erinevaid andmetabeleid.
+[Siin](https://ggplot2.tidyverse.org/reference/ggplot.html) on n√§ide, kuidas erinevate kihtide jaoks kasutada erinevaid andmetabeleid.
 
 #### Mida teeb aes()?
 
-J‰rgnev skeem selgitab, mida teeb funktsioon `aes()`. Vasakul on n‰idatud meie esialgne andmestik, paremal selle esitus p‰rast `aes` rakendamist (*with variables mapped into aesthetic space*). T‰psemalt, 
+J√§rgnev skeem selgitab, mida teeb funktsioon `aes()`. Vasakul on n√§idatud meie esialgne andmestik, paremal selle esitus p√§rast `aes` rakendamist (*with variables mapped into aesthetic space*). T√§psemalt, 
 
 * *x* koordinaadiks on *Sepal.Length*, 
 * *y* koordinaadiks on *Petal.Length*,
-* v‰rvi n‰itab *Species*,
+* v√§rvi n√§itab *Species*,
 
-nagu me ise spetsifitseerisime. Kuna punktide kuju ning suuruse kohta me midagi ei ˆelnud, anti neile vaikimisi v‰‰rtused. 
+nagu me ise spetsifitseerisime. Kuna punktide kuju ning suuruse kohta me midagi ei √∂elnud, anti neile vaikimisi v√§√§rtused. 
 
-![](aes_example.jpg "N‰ide")
+![](aes_example.jpg "N√§ide")
 
 ## facet_grid() ja facet_wrap()
 
-N‰iteks tunnuse `Species` pıhjal saame oma joonise jagada alamjoonisteks (tahkudeks) j‰rgnevalt
+N√§iteks tunnuse `Species` p√µhjal saame oma joonise jagada alamjoonisteks (tahkudeks) j√§rgnevalt
 
 ```{r}
 ggplot(iris, aes(x = Sepal.Length, y = Petal.Length)) + geom_point() + 
@@ -118,9 +118,9 @@ ggplot(iris, aes(x = Sepal.Length, y = Petal.Length)) + geom_point() +
 
 ```{r}
 ggplot(iris, aes(x = Petal.Length)) + geom_histogram()
-# Saame histogrammi tulpasid v‰rvida Species j‰rgi
+# Saame histogrammi tulpasid v√§rvida Species j√§rgi
 ggplot(iris, aes(x = Petal.Length, fill=Species)) + geom_histogram()
-# Vıi jagada histogramm tahkudeks Species j‰rgi, ¸ksteise alla
+# V√µi jagada histogramm tahkudeks Species j√§rgi, √ºksteise alla
 ggplot(iris, aes(x = Petal.Length, fill=Species)) + geom_histogram() + 
   facet_wrap(~ Species, ncol=1)
 # Mitteparameetriline tiheduse hinnang
@@ -144,7 +144,7 @@ ggplot(iris, aes(x = Species, y = Petal.Length)) +
 
 ## stat_smooth()
 
-Saame lisada n‰iteks regressioonisirge iga grupi jaoks
+Saame lisada n√§iteks regressioonisirge iga grupi jaoks
 
 ```{r}
 ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour=Species)) + 
