@@ -11,6 +11,7 @@ E-raamatud:
 * [R Graphics Cookbook (Winston Chang)](https://r-graphics.org/)
 * [Hands-On Programming with R (G. Grolemund)](https://rstudio-education.github.io/hopr/)
 * [R Markdown: The Definitive Guide (Y. Xie, J. J. Allaire, G. Grolemund)](https://bookdown.org/yihui/rmarkdown/)
+* [ggplot2: Elegant Graphics for Data Analysis (H. Wickham)](https://ggplot2-book.org/index.html)
 
 ## Andmeteadus
 
