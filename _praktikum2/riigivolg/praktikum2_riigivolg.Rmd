@@ -131,16 +131,16 @@ Selgitage välja, kas täpselt 90% on just see piir, millest suurem võlakoormus
 
 ### Ülesanne 5 (4 punkti) - Kuidas visuaalselt uurida, milline on seos SKP ja võlakoormuse vahel?
 
-Kõigepealt, tehke joonis, kus oleks näha seos SKP ja võlakoormuse vahel. Seose iseloomustamiseks võite kasutada `stat_smooth()` abil leitavat joont. 
+Kõigepealt, tehke joonis, kus oleks näha seos SKP kasvu ja võlakoormuse-SKP suhte vahel. Seose iseloomustamiseks võite kasutada `stat_smooth()` abil leitavat joont. 
 
-Näinud seost andmestikus, tekib küsimus, ega see seos ei ole lihtsalt juhuslik. Ehk kas vaadeldud seos erineb oluliselt seostest sellistes andmestikes, kus tegelikult SKP ja võlakoormuse vahel mingisugust seost ei eksisteeri. 
+Näinud seost andmestikus, tekib küsimus, ega see seos ei ole lihtsalt juhuslik. Ehk kas vaadeldud seos erineb oluliselt seostest sellistes andmestikes, kus tegelikult SKP kasvu ja võlakoormuse-SKP suhte vahel mingisugust seost ei eksisteeri. 
 
 Selle visuaalseks kontrollimiseks võime kasutada järgmist skeemi. See põhineb permutatsioonitestil, mille kohta vaadake esmalt [kodutöö osa I](../praktikum2_kodutoo) videot https://www.youtube.com/watch?v=5Dnw46eC-0o
 
 Skeem:
 
-* Nullhüpotees on, et SKP ja riigivõla vahel seos puudub. 
-* Genereerime meie andmetest permuteerimise teel sellise andmestiku, mis vastab nullhüpoteesile. Näiteks võib fikseerida SKP väärtused ning neile vastavusse seatavad riigivõla väärtused permuteerida. (Näpunäide: permuteerimisel on kasuks funktsioon `sample`.) Järgneval joonisel on näidatud tegelik andmestik ning permuteeritud andmestik (permuteeritud andmestik on saadud, kui on fikseeritud x-tunnus, aga y-tunnused on segamini aetud.)
+* Nullhüpotees on, et võlakoorma-SKP suhte ja SKP kasvu vahel seos puudub. 
+* Genereerime meie andmetest permuteerimise teel sellise andmestiku, mis vastab nullhüpoteesile. Näiteks võib fikseerida SKP kasvu väärtused ning neile vastavusse seatavad võlakoorma-SKP suhte väärtused permuteerida. (Näpunäide: permuteerimisel on kasuks funktsioon `sample`.) Järgneval joonisel on näidatud tegelik andmestik ning permuteeritud andmestik (permuteeritud andmestik on saadud, kui on fikseeritud x-tunnus, aga y-tunnused on segamini aetud.)
 
 ![alt text](permuteeritud_vs_tegelik_andmestik.png "Näide")
 
