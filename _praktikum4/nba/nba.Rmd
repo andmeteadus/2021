@@ -31,6 +31,17 @@ library(NBAapi)
 str(shots_1617) 
 ```
 
+Või kui paketi laadimine ebaõnnestub, siis lae alla vajalikud [NBA 2016/17 hooaja andmed](https://github.com/andmeteadus/2021/raw/master/data/NBA_16_17.zip) aine kodulehelt, paki lahti ja loe järgmise koodiga sisse:
+
+```{r, eval=FALSE}
+# Sea paika töökataloog 
+# Kui skripti fail asub samas kaustas andmetega, siis kasuta järgmist koodi.
+setwd(dirname(rstudioapi::getActiveDocumentContext()[[2]]))
+
+# Loe andmed sisse
+nba <- read.csv('NBA_16_17.csv')
+```
+
 
 Tunnused, mida järgnevalt vaja läheb, on:
 
