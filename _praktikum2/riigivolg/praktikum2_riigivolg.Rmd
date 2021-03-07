@@ -123,7 +123,7 @@ ggplot(df, aes(x=grupp, y=mediaan, fill=analyys)) +
 
 Selgitage välja, kas täpselt 90% on just see piir, millest suurem võlakoormus on seotud madalama SKP kasvuga, või on see suhteliselt suvaliselt valitud arv? 
 
-Üks võimalik lahendusviis: Tekitage uus kategooria, kus võlg jaotatakse 5 gruppi: `< 30%`, `30-60%`, `60-90%`, `90-120%`, `> 120%`). Arvutage iga grupi kohta mediaanid ja keskmised kasutades RR kaalumisviisi.
+Üks võimalik lahendusviis: Tekitage uus kategooria, kus võlg jaotatakse 5 gruppi: `< 30%`, `30-60%`, `60-90%`, `90-120%`, `> 120%`). Arvutage iga grupi kohta mediaanid ja keskmised kasutades RR kaalumisviisi. **NB!** Jätta seekord sisse kõik RR vigadest tingitud vaatlused (Exceli viga) ja kaasake subjektiivsest valikust välja jäetud riigid. 
 
 ```{r}
 # sinu kood
