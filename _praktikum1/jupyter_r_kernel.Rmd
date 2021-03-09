@@ -5,7 +5,6 @@ output:
     theme: null
 ---
 
-# Kuidas Jupyteris R-i vahetada
 
 Kui Jupyter Anacondaga koos paigaldada, siis tuleb Anacondas kaasa oma R (vaikimisi versioon 3.6). See aga tähendab, et kõik paketid on vaja uuesti paigaldada, sest Anaconda-R asub mujal kui sinu arvutisse varem paigaldatud R. Kui sul oma arvuti RStudios kõik töötab aga Jupyteris ei tööta, siis võta ette järgmised sammud (kui üks variant ei tööta, siis proovi järgmist):
 
