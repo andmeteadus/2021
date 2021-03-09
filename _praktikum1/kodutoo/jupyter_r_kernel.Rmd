@@ -1,4 +1,5 @@
 ---
+title: "Jupyteri R kerneli muutmine"
 output: html_document
 ---
 
@@ -44,7 +45,22 @@ install.packages("IRkernel-master.zip", repos = NULL)
 ```
 
 
-Loodetavasti üks neist variantidest töötas. Seejärel käivita Anaconda ja Jupyter (kui olid lahti, siis taaskäivita). Ava mõni Jupyter notebook või tee lihtsalt tühi notebook (R kerneliga) ja käivita käsk `R.Version()$version.string`. Kontrolli, kas see on seesama R, mis RStudios (`Tools -> Global Options -> R version`). 
+Loodetavasti üks neist variantidest töötas. Tee kindlaks kuhu kausta oled paigaldanud R-i. Näiteks
+
+![](r_kernel_instructions1.png)
+
+
+Seejärel käivita Anaconda:
+
+1. Mine Anacondas `Environments`, käivita oma keskkond, kus jookseb ka R (Kodutööde juhendis panime nimeks `AndeteadusR`).
+1. Vajuta rohelisele kolmnurgale ja vali `Open Terminal`.
+1. Trüki sisse käsk `cd` ja oma Ri asukoht. Näiteks `cd "C:\Program Files\R\R-4.0.4\"`
+1. Käivita käsk `cd bin` ja seejärel `R.exe`
+1. Selle peale peaks tulema tuttav R-i teavitustekst. Käivita käsk `IRkernel::installspec()`. Tulemuse peaks olema midagi sarnast:
+
+![](r_kernel_instructions2.png)
+
+Käivita Jupyter (kui oli varem lahti, siis taaskäivita). Ava mõni Jupyter notebook või tee lihtsalt tühi notebook (R kerneliga) ja käivita käsk `R.Version()$version.string`. Kontrolli, kas see on seesama R, mis RStudios (`Tools -> Global Options -> R version`). 
 
 
 Võid veel testida, et proovi käivitada Jupyteris mõni pakett mida sul kindlasti ei ole, nt. `library(pack)`. Vastuseks peaksid saama `Error in library(abd) : there is no package called ‘pack’` ja see peabki nii olema. Siis mine RStudiosse ja jooksuta `install.packages('pack')`. Eduka paigalduse järgselt proovi Jupyteris uuesti antud paketti sisse lugeda ja seekord peaks see õnnestuma.
