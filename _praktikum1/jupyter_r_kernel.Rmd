@@ -1,11 +1,9 @@
 ---
 title: "Jupyteri R kerneli muutmine"
-output: html_document
+output: 
+  html_document:
+    theme: null
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # Kuidas Jupyteris R-i vahetada
 
