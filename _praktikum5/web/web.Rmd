@@ -42,7 +42,7 @@ Suur vihje on olemas eelneva html koodi < style > blokis. Abiks võib-olla ka [C
 
 ```{r}
 # Ülesanne 1.1
-url = "https://andmeteadus.github.io/2020/examples/html1.html"
+url = "https://andmeteadus.github.io/2021/examples/html1.html"
 
 # sinu kood
 ```
@@ -91,7 +91,7 @@ Eralda [html koodis](../examples/html2.html) punaselt olev tekst muutujasse `tek
 
 ```{r}
 # Ülesanne 1.2
-url = "https://andmeteadus.github.io/2020/examples/html2.html"
+url = "https://andmeteadus.github.io/2021/examples/html2.html"
 
 # sinu kood
 ```
