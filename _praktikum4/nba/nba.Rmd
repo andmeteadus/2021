@@ -117,7 +117,7 @@ NY Timesi graafikaosakond on jaganud visete arvu kolme kategooriasse: *low*, *me
 ```{r, eval=FALSE}
 kolm_suurust = function(andmed, suurus1, suurus2, suurus3, piir1, piir2){
   # Kui visete_arv <= piir1, siis uus_suurus = suurus1,
-  # kui piir1 > visete_arv <= piir2, siis uus_suurus = suurus2,
+  # kui piir1 < visete_arv <= piir2, siis uus_suurus = suurus2,
   # kui visete_arv>piir2, siis uus_suurus = suurus3
   
   # sinu kood
