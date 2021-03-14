@@ -17,6 +17,8 @@ Jupyteri käivitamiseks:
 
 ![](jupyter_instructions2.png "Keskkonna käivitamine")
 
+Paljusid probleeme aitab ära hoida kui seadistada nii, et Jupyter ja RStudio kasutavad sama R-i (Anaconda keskkonnas see vaikimisi nii ei ole, ta tuleb oma R-iga). Seega kui edaspidi paigaldate paketi RStudios, siis on see ka Jupyteris olemas. Seadistamiseks järgi [juhiseid](../praktikum1_r_kernel).
+
 **Kodutöö esitamiseks lae alla [Jupyter Notebook fail ja abifail](../kodutood/kodutoo1.ipynb).**
 
 # I osa - veebiloengud, videod, artiklid (5 punkti)

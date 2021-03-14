@@ -42,7 +42,7 @@ Suur vihje on olemas eelneva html koodi < style > blokis. Abiks võib-olla ka [C
 
 ```{r}
 # Ülesanne 1.1
-url = "https://andmeteadus.github.io/2020/examples/html1.html"
+url = "https://andmeteadus.github.io/2021/examples/html1.html"
 
 # sinu kood
 ```
@@ -91,7 +91,7 @@ Eralda [html koodis](../examples/html2.html) punaselt olev tekst muutujasse `tek
 
 ```{r}
 # Ülesanne 1.2
-url = "https://andmeteadus.github.io/2020/examples/html2.html"
+url = "https://andmeteadus.github.io/2021/examples/html2.html"
 
 # sinu kood
 ```
@@ -128,7 +128,11 @@ print(tekst)
 
 ### Ülesanne 1.3 (3 punkti)
 
-Eralda Riigikogu hääletamistulemuste  [veebilehelt](https://www.riigikogu.ee/tegevus/tooulevaade/haaletused/haaletustulemused-kohalolekukontroll/05d46fbf-55a4-41a0-ac27-518e4ee5b90b) (lähtekoodi nägemiseks paremklikk ja Wiew Page Source), mitu saadikut hääletas äriseadustiku muutmise seaduse:
+>Margus "Maru" Rahvus on aus Eesti mees - ta aretab aias sini-must-valgeid ülaseid; mobiiltelefoni helinaks on tal "Eestlane olen ja eestlaseks jään" ja maksud on tal juba 3 aasta jagu ette ära makstud, et ikka kodumaa õitseks. Veebruaris 2021 oli ta pühaviha täis kui sai teada, et [Riigikogus lükkas tagasi eelnõu](https://www.riigikogu.ee/tegevus/tooulevaade/haaletused/haaletustulemused-kohalolekukontroll/905a7f22-99c0-4188-8bb6-0fe9125127a2), mis oleks ometi viinud ta lähemale Eesti Vabariigi presidendi otsevalimisteni. Juba aastaid on ta tahtnud valida selleks oma kalli naise Eevi "Emakaru" Rahvuse, et siis uhketel paraadidel ja ballidel kaasas käia, nautida esihärra head elu ja Kadriorus Pätsi pronksbüsti pead paitada.
+>
+>Margusel on plaanis kirjutada kiri kõikidele rahvasaadikutele, kes eelnõu vastu hääletasid, et pärida nende otsuse tagamaad. Ta pöördub Eva "Usin" Masina poole, kes on _copy-paste_ vallas kibe käpp.
+
+Automatiseeri see protsess. Eralda ülal toodud Riigikogu hääletamistulemuste veebilehelt (lähtekoodi nägemiseks paremklikk ja Wiew Page Source), mitu saadikut hääletas Marguse ammuihaldatud eelnõu:
 
 * poolt
 * vastu
@@ -150,7 +154,7 @@ Vihjed:
 
 ```{r}
 # Ülesanne 1.3
-url = "https://www.riigikogu.ee/tegevus/tooulevaade/haaletused/haaletustulemused-kohalolekukontroll/05d46fbf-55a4-41a0-ac27-518e4ee5b90b"
+url = "https://www.riigikogu.ee/tegevus/tooulevaade/haaletused/haaletustulemused-kohalolekukontroll/905a7f22-99c0-4188-8bb6-0fe9125127a2"
 
 # sinu kood
 
@@ -159,7 +163,7 @@ url = "https://www.riigikogu.ee/tegevus/tooulevaade/haaletused/haaletustulemused
 
 ### Ülesanne 1.4 (3 punkti)
 
-Eralda äriseadustiku muutmise seaduse hääletamistulemuste andmetabel, kus on 101 rida ja tunnused *Nimi*, *Otsus* ja *Fraktsioon*.
+Eralda eelnõu hääletamistulemuste andmetabel, kus on 101 rida ja tunnused *Nimi*, *Otsus* ja *Fraktsioon*.
 
 Vihjed: 
 

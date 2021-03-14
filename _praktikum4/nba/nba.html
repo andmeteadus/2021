@@ -140,7 +140,7 @@ valjak &lt;- ggplot(valitud_mangija, aes(x = x, y = y)) +
 <p>NY Timesi graafikaosakond on jaganud visete arvu kolme kategooriasse: <em>low</em>, <em>medium</em>, <em>high</em>. Vali välja piirid, mille põhjal jaotatakse visete arv kolme kategooriasse (<em>low</em>, <em>medium</em>, <em>high</em>). Iga kategooria jaoks vali sobiv pindala suurus (kontrolli, et tulemus oleks visuaalselt kena). Kirjuta funktsioon <code>kolm_suurust</code>, mis vastavalt valitud suuruste väärtustele ning kategooriate piiridele tagastab andmestiku, kus tunnus “uus_suurus” vastab kategooria suurusele.</p>
 <pre class="r"><code>kolm_suurust = function(andmed, suurus1, suurus2, suurus3, piir1, piir2){
   # Kui visete_arv &lt;= piir1, siis uus_suurus = suurus1,
-  # kui piir1 &gt; visete_arv &lt;= piir2, siis uus_suurus = suurus2,
+  # kui piir1 &lt; visete_arv &lt;= piir2, siis uus_suurus = suurus2,
   # kui visete_arv&gt;piir2, siis uus_suurus = suurus3
   
   # sinu kood
