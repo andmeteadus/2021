@@ -4,9 +4,9 @@ output:
     theme: null
 ---
 
-# PCA minimalistlik n‰ide
+# PCA minimalistlik n√§ide
 
-J‰rgnev PCA minimalistlik n‰ide pıhineb iiriste andmestikul. 
+J√§rgnev PCA minimalistlik n√§ide p√µhineb iiriste andmestikul. 
 
 ```{r}
 data(iris)
@@ -16,7 +16,7 @@ head(iris)
 Teeme PCA iiriste andmestikul funktsiooni `prcomp` abil. 
 
 ```{r}
-# PCA tegemisel j‰tame viimase veeru Species v‰lja
+# PCA tegemisel j√§tame viimase veeru Species v√§lja
 pca = prcomp(iris[, -5])
 
 ```
@@ -35,15 +35,15 @@ pc2 = pca$x[, 2]
 plot(pc1, pc2, pch=16)
 ```
 
-Joonisel on n‰ha kahte eristuvat gruppi. Oleks huvitav teada, kas tekkinud gruppe kirjeldab andmestikus olnud tunnus *Species*. 
+Joonisel on n√§ha kahte eristuvat gruppi. Oleks huvitav teada, kas tekkinud gruppe kirjeldab andmestikus olnud tunnus *Species*. 
 
 ```{r}
 plot(pc1, pc2, pch=16, col=as.numeric(iris$Species))
 ```
 
-Tundub, et jah. Isegi ainu¸ksi PC1 vıimaldab suhteliselt h‰sti liikidel vahet teha. 
+Tundub, et jah. Isegi ainu√ºksi PC1 v√µimaldab suhteliselt h√§sti liikidel vahet teha. 
 
-PC1 ning PC2 on saadud esialgsete tunnuste lineaarkombinatsioonina. Kuidas leida kordajad? Need saame k‰tte j‰rgnevalt
+PC1 ning PC2 on saadud esialgsete tunnuste lineaarkombinatsioonina. Kuidas leida kordajad? Need saame k√§tte j√§rgnevalt
 
 ```{r}
 pca$rotation
@@ -60,7 +60,7 @@ $$PC_2 = -0.66 \cdot \text{Sepal.Length} -0.73 \cdot \text{Sepal.Width} + 0.17 \
 summary(pca)
 ```
 
-N‰eme, et 
+N√§eme, et 
 
 * PC1 seletab 92.5\% kogu variatsioonist, 
 * PC1 ja PC2 kokku seletavad 97.7\% kogu variatsioonist. 
