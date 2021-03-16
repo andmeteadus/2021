@@ -31,7 +31,7 @@ Näpunäited:
 * Ääriseid saad muuta `par(mar = c(bottom, left, top, right))`
 * Selleks, et saada esialgsed graafilisi parameetreid tagasi, võid käituda järgmiselt:
 
-```{r eval=FALSE}
+```
 # sinu kood, kus muudad graafilisi parameetreid mfrow ja mar
 # Näiteks
 par(mfrow=c(2, 5), mar=c(1, 1, 1, 1) + 0.1)
