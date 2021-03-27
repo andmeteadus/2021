@@ -107,7 +107,7 @@ Visualiseeri enda jaoks ülesandes 1 saadud andmeid (valitud mängija korral). I
 Näpunäited: 
 
 * kasuta selleks käsku `scale_size_area()` (uuri, mida see teeb)
-* määra `ylim(-50,300)`.
+* määra `ylim(-50,300)` ja `xlim(-250,250)` (et ka varupingimeestel või hooaja keskel liitunutel näidatakse ikka tervet väljakut).
 
 
 ### Ülesanne 1.3 - suuruse muutmine (1 punkti)
