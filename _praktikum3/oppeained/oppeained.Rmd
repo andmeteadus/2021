@@ -141,13 +141,14 @@ Lõpptulemus võiks välja näha umbes selline:
 
 Abiks on ka *Shiny Cheat Sheet* pdf, mis on kättesaadav [siit lehelt](http://www.rstudio.com/resources/cheatsheets/)
 
-<!--
-Näiteid Shiny rakendustest:
+
+### Näiteid Shiny rakendustest:
 
 * [BoxPlotR: a web-tool for generation of box plots](http://boxplot.tyerslab.com/). Väärib mainimist, et see rakendus avaldati teadusartiklina ajakirjas [*Nature Methods*](http://www.nature.com/nmeth/journal/v11/n2/full/nmeth.2811.html)
 * [ClustVis: a web tool for visualizing clustering of multivariate data](http://biit.cs.ut.ee/clustvis/)
 * [R Graph Catalog (ggplot2)](http://shinyapps.stat.ubc.ca/r-graph-catalog/)
--->
+* [Tartu Ülikooli statistika](https://statistika.ut.ee/ut/)
+
 
 ### Boonusülesanne 1: Interaktiivsus (**1 boonuspunkt**)
 
