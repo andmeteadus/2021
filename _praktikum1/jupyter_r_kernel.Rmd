@@ -8,8 +8,15 @@ output:
 
 Kui Jupyter Anacondaga koos paigaldada, siis tuleb Anacondas kaasa oma R (vaikimisi versioon 3.6). See aga tähendab, et kõik paketid on vaja uuesti paigaldada, sest Anaconda-R asub mujal kui sinu arvutisse varem paigaldatud R. Kui sul oma arvuti RStudios kõik töötab aga Jupyteris ei tööta, siis võta ette järgmised sammud (kui üks variant ei tööta, siis proovi järgmist):
 
+## Samm nr 1
 
-## Variant 1
+Esimese sammu tegemiseks on mitu varianti. Alusta esimesest ja kui see ei tööta, siis proovi järgmist. Kui saad vastuse stiilis
+
+> package ‘IRkernel’ successfully unpacked and MD5 sums checked
+
+Siis võid edasi minna sammu 2 juurde.
+
+### Variant 1
 
 Käivita RStudios järgmine käsk:
 ```{r eval = FALSE}
@@ -17,7 +24,7 @@ install.packages('IRkernel')
 ```
 
 
-## Variant 2
+### Variant 2
 
 Käivita RStudios järgmised käsud:
 ```{r eval = FALSE}
@@ -42,7 +49,12 @@ install.packages("IRkernel-master.zip", repos = NULL)
 ```
 
 
-Loodetavasti üks neist variantidest töötas. Tee kindlaks kuhu kausta oled paigaldanud R-i. Näiteks
+Loodetavasti üks neist variantidest töötas. 
+
+
+## Samm nr 2
+
+Tee kindlaks kuhu kausta oled paigaldanud R-i. Näiteks
 
 ![](r_kernel_instructions1.png)
 
