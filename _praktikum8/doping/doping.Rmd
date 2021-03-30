@@ -124,8 +124,8 @@ d. Visualiseeri ühel joonisel koos andmetega nii sobitatud log-normaal kui ka g
 
 Näpunäited:
 
-* Et histogrammi y-teljele saada *density*, uuri http://docs.ggplot2.org/current/geom_histogram.html 
-* Tiheduse lisamiseks uuri http://docs.ggplot2.org/current/stat_function.html
+* Et histogrammi y-teljele saada *density*, uuri https://ggplot2.tidyverse.org/reference/geom_histogram.html 
+* Tiheduse lisamiseks uuri https://ggplot2.tidyverse.org/reference/geom_function.html
 * Joonis võiks välja näha umbes selline
 
 ![](doping_hist.png)
