@@ -190,8 +190,7 @@ Artiklis oli kirjas
 
 Leia bootstrap 95% usaldusintervall dopingutesti piirmäärale (ehk 99.99% kvantiilile). Visualiseeri saadud tulemust. 
 
-> [Bootstrap](http://en.wikipedia.org/wiki/Bootstrapping_%28statistics%29) on üks viis leida valimihinnangule (näiteks meid huvitavale kvantiilile) usaldusintervall. Kui bootstrap on sinu jaoks uus, on abiks järgnev Coursera kursuse [Data Analysis and Statistical Inference](https://www.coursera.org/course/statistics) video *Unit 4 Part 2 - Bootstrapping*.  
-Juhul, kui sa ei soovi sellele kursusele registreeruda, saad seda videot vaadata ka [siit lingilt](https://www.dropbox.com/s/xez6gn4kyflpqkn/Data%20Analysis%20and%20Statistical%20Inference%20-%20Bootstrapping.mp4?dl=0)
+> [Bootstrap](http://en.wikipedia.org/wiki/Bootstrapping_%28statistics%29) on üks viis leida valimihinnangule (näiteks meid huvitavale kvantiilile) usaldusintervall. Kui bootstrap on sinu jaoks uus, on abiks järgnev Coursera kursuse [Data Analysis and Statistical Inference](https://www.coursera.org/course/statistics) (täpsemalt *Unit 4 Part 2 - Bootstrapping*). Juhul, kui sa ei soovi sellele kursusele registreeruda, siis kiire ülevaate saad videost [Confidence Intervals: Intro to bootstrapping proportions](https://www.youtube.com/watch?v=655X9eZGxls).
 
 
 ### Ülesanne 8 (4 punkti) - valepositiivse testitulemuse tõenäosus
