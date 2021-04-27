@@ -115,9 +115,8 @@ Doping ja statistika. Statistiline test. Näide: ühe dopingujuhtumi analüüs.
 * [Kodutöö](../praktikum8_kodutoo)
     * Tähtaeg 06.04.2021 kell 23:59.
 	
-<!--
-## Lisa praktikum
+
+## Lisapraktikum
 
 [Sarnasusdiagramm](../praktikumLisa_chorddiag)
-* Tähtaeg 31.05.2021
--->
+
