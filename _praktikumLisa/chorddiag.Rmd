@@ -31,7 +31,8 @@ opilased = data.frame(Matem = c(50, 25, 5, 12),
                       KehalKasv = c(24,67,27,15))
 
 opilased = as.matrix(opilased)
-row.names(opilased) = c("Paralleel A", "Paralleel B", "Paralleel C", "Paralleel D")
+row.names(opilased) = c("Paralleel A", "Paralleel B", 
+                        "Paralleel C", "Paralleel D")
 
 chorddiag(opilased, 
           type = "bipartite", 
@@ -81,8 +82,11 @@ Praktikumi andmed on võimalik kätte saada kahel viisil:
 install.packages('essurvey')
 library(essurvey)
 
+# Kinnita nn. konto, millega hakkad ESS andmeid pärima
+set_email('<sinu ESS registreeritud e-post>')
+
 # ESS 9-s round on aastal 2018 kogutud andmed, andmeid kogutakse iga 2 aasta tagant
-ESS <- import_country('Estonia', rounds = 9, ess_email = '<sinu ESS registreeritud e-post>') %>% 
+ESS <- import_country('Estonia', rounds = 9) %>% 
   select(polintr, trstprl, trstlgl, trstplc, trstplt, trstprt, trstep) 
 ```
 
@@ -122,7 +126,8 @@ Vahemik | Kodeering
 
 ```{r}
 # Näiteks nii
-trst_kodeering = c('Üldse ei usalda', 'Ei usalda', 'Neutraalne', 'Natuke usaldan', 'Usaldan täielikult')
+trst_kodeering = c('Üldse ei usalda', 'Ei usalda', 'Neutraalne', 
+                   'Natuke usaldan', 'Usaldan täielikult')
 
 konverteeri <- function(var){
   var <- ... # vahemike ümber kodeerimine
@@ -149,7 +154,8 @@ Vahemik | Kodeering
 
 ```{r, eval = F}
 # Tõlgitud kodeering
-polintr_kodeering = c('Väga huvitatud', 'Üsna huvitatud', 'Vaevalt huvitatud', 'Pole üldse huvitatud')
+polintr_kodeering = c('Väga huvitatud', 'Üsna huvitatud', 
+                      'Vaevalt huvitatud', 'Pole üldse huvitatud')
 
 ESS <- ESS %>% 
   mutate(polintr = ...)

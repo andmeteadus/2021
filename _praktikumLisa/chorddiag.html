@@ -82,7 +82,8 @@ opilased = data.frame(Matem = c(50, 25, 5, 12),
                       KehalKasv = c(24,67,27,15))
 
 opilased = as.matrix(opilased)
-row.names(opilased) = c(&quot;Paralleel A&quot;, &quot;Paralleel B&quot;, &quot;Paralleel C&quot;, &quot;Paralleel D&quot;)
+row.names(opilased) = c(&quot;Paralleel A&quot;, &quot;Paralleel B&quot;, 
+                        &quot;Paralleel C&quot;, &quot;Paralleel D&quot;)
 
 chorddiag(opilased, 
           type = &quot;bipartite&quot;, 
@@ -90,8 +91,8 @@ chorddiag(opilased,
           groupnameFontsize = 14, 
           groupnamePadding = 10, 
           margin = 90)</code></pre>
-<div id="htmlwidget-7483db4e01690f841441" style="width:672px;height:480px;" class="chorddiag html-widget"></div>
-<script type="application/json" data-for="htmlwidget-7483db4e01690f841441">{"x":{"matrix":[[0,0,0,0,50,10,45,24],[0,0,0,0,25,55,12,67],[0,0,0,0,5,5,29,27],[0,0,0,0,12,20,20,15],[50,25,5,12,0,0,0,0],[10,55,5,20,0,0,0,0],[45,12,29,20,0,0,0,0],[24,67,27,15,0,0,0,0]],"options":{"type":"bipartite","width":null,"height":null,"margin":90,"showGroupnames":true,"groupNames":["Paralleel A","Paralleel B","Paralleel C","Paralleel D","Matem","Kunst","Fyysika","KehalKasv"],"groupColors":["#F7F7F7","#CCCCCC","#969696","#525252","#1B9E77","#D95F02","#7570B3","#E7298A"],"groupThickness":0.1,"groupPadding":0.0349065850398866,"groupnamePadding":[10,10,10,10,10,10,10,10],"groupnameFontsize":14,"groupedgeColor":null,"chordedgeColor":"#808080","categoryNames":null,"categorynamePadding":100,"categorynameFontsize":28,"showTicks":false,"tickInterval":1,"ticklabelFontsize":10,"fadeLevel":0.1,"showTooltips":true,"showZeroTooltips":true,"tooltipNames":["Paralleel A","Paralleel B","Paralleel C","Paralleel D","Matem","Kunst","Fyysika","KehalKasv"],"tooltipFontsize":12,"tooltipUnit":"","tooltipGroupConnector":" &#x25B6; ","precision":"null","clickAction":null,"clickGroupAction":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-f2f8712944d6cc3076d3" style="width:672px;height:480px;" class="chorddiag html-widget"></div>
+<script type="application/json" data-for="htmlwidget-f2f8712944d6cc3076d3">{"x":{"matrix":[[0,0,0,0,50,10,45,24],[0,0,0,0,25,55,12,67],[0,0,0,0,5,5,29,27],[0,0,0,0,12,20,20,15],[50,25,5,12,0,0,0,0],[10,55,5,20,0,0,0,0],[45,12,29,20,0,0,0,0],[24,67,27,15,0,0,0,0]],"options":{"type":"bipartite","width":null,"height":null,"margin":90,"showGroupnames":true,"groupNames":["Paralleel A","Paralleel B","Paralleel C","Paralleel D","Matem","Kunst","Fyysika","KehalKasv"],"groupColors":["#F7F7F7","#CCCCCC","#969696","#525252","#1B9E77","#D95F02","#7570B3","#E7298A"],"groupThickness":0.1,"groupPadding":0.0349065850398866,"groupnamePadding":[10,10,10,10,10,10,10,10],"groupnameFontsize":14,"groupedgeColor":null,"chordedgeColor":"#808080","categoryNames":null,"categorynamePadding":100,"categorynameFontsize":28,"showTicks":false,"tickInterval":1,"ticklabelFontsize":10,"fadeLevel":0.1,"showTooltips":true,"showZeroTooltips":true,"tooltipNames":["Paralleel A","Paralleel B","Paralleel C","Paralleel D","Matem","Kunst","Fyysika","KehalKasv"],"tooltipFontsize":12,"tooltipUnit":"","tooltipGroupConnector":" &#x25B6; ","precision":"null","clickAction":null,"clickGroupAction":null}},"evals":[],"jsHooks":[]}</script>
 <p>Graafikut analüüsides võib öelda esmalt, et B paralleel on kõige suurem, järgnevad A, D ja C. Teiseks on B paralleelis suur huvi spordi ja kunstiõpetuse vastu, füüsika ja matemaatika jäävad tahaplaanile. Kõige tasakaalukam lisakursuste osas on D paralleel kuna neil on õppeained kõige ühtlasemalt jaotunud.</p>
 <div id="ülesanne-1-6-punkti" class="section level3">
 <h3>Ülesanne 1 (6 punkti)</h3>
@@ -125,8 +126,11 @@ chorddiag(opilased,
 <pre class="r"><code>install.packages(&#39;essurvey&#39;)
 library(essurvey)
 
+# Kinnita nn. konto, millega hakkad ESS andmeid pärima
+set_email(&#39;&lt;sinu ESS registreeritud e-post&gt;&#39;)
+
 # ESS 9-s round on aastal 2018 kogutud andmed, andmeid kogutakse iga 2 aasta tagant
-ESS &lt;- import_country(&#39;Estonia&#39;, rounds = 9, ess_email = &#39;&lt;sinu ESS registreeritud e-post&gt;&#39;) %&gt;% 
+ESS &lt;- import_country(&#39;Estonia&#39;, rounds = 9) %&gt;% 
   select(polintr, trstprl, trstlgl, trstplc, trstplt, trstprt, trstep) </code></pre>
 <p><strong>Teise variandi</strong> puhul loe <a href="../data/ESS9EE.sav">andmed</a> sisse paketiga <code>haven</code> ja võtame välja vaid vajalikud andmed:</p>
 <pre class="r"><code>library(haven)
@@ -177,7 +181,8 @@ ESS &lt;- read_sav(&quot;..&lt;faili asukoht&gt;../ESS8EE.sav&quot;) %&gt;%
 </tbody>
 </table>
 <pre class="r"><code># Näiteks nii
-trst_kodeering = c(&#39;Üldse ei usalda&#39;, &#39;Ei usalda&#39;, &#39;Neutraalne&#39;, &#39;Natuke usaldan&#39;, &#39;Usaldan täielikult&#39;)
+trst_kodeering = c(&#39;Üldse ei usalda&#39;, &#39;Ei usalda&#39;, &#39;Neutraalne&#39;, 
+                   &#39;Natuke usaldan&#39;, &#39;Usaldan täielikult&#39;)
 
 konverteeri &lt;- function(var){
   var &lt;- ... # vahemike ümber kodeerimine
@@ -218,7 +223,8 @@ konverteeri &lt;- function(var){
 </tbody>
 </table>
 <pre class="r"><code># Tõlgitud kodeering
-polintr_kodeering = c(&#39;Väga huvitatud&#39;, &#39;Üsna huvitatud&#39;, &#39;Vaevalt huvitatud&#39;, &#39;Pole üldse huvitatud&#39;)
+polintr_kodeering = c(&#39;Väga huvitatud&#39;, &#39;Üsna huvitatud&#39;, 
+                      &#39;Vaevalt huvitatud&#39;, &#39;Pole üldse huvitatud&#39;)
 
 ESS &lt;- ESS %&gt;% 
   mutate(polintr = ...)</code></pre>
@@ -237,8 +243,8 @@ rownames(huvi_vs_trstprl)</code></pre>
 <div id="ülesanne-5-4-punkti---sarnasuse-diagramm" class="section level3">
 <h3>Ülesanne 5 (4 punkti) - sarnasuse diagramm</h3>
 <p>Joonista sarnasus diagramm kasutades eelmises ülesandes leitud riigikogu usalduse maatriksit. Tulemus peaks tulema midagi sarnast.</p>
-<div id="htmlwidget-95f9f415be89d13354e8" style="width:672px;height:480px;" class="chorddiag html-widget"></div>
-<script type="application/json" data-for="htmlwidget-95f9f415be89d13354e8">{"x":{"matrix":[[0,0,0,0,0,20,31,78,55],[0,0,0,0,0,21,96,138,60],[0,0,0,0,0,47,266,362,103],[0,0,0,0,0,29,148,162,45],[0,0,0,0,0,14,34,33,8],[20,21,47,29,14,0,0,0,0],[31,96,266,148,34,0,0,0,0],[78,138,362,162,33,0,0,0,0],[55,60,103,45,8,0,0,0,0]],"options":{"type":"bipartite","width":null,"height":null,"margin":90,"showGroupnames":true,"groupNames":["Üldse ei usalda","Ei usalda","Neutraalne","Natuke usaldan","Usaldan täielikult","Väga huvitatud","Üsna huvitatud","Vaevalt huvitatud","Pole üldse huvitatud"],"groupColors":["#F7F7F7","#CCCCCC","#969696","#636363","#252525","#1B9E77","#D95F02","#7570B3","#E7298A"],"groupThickness":0.1,"groupPadding":0.0349065850398866,"groupnamePadding":[10,10,10,10,10,10,10,10,10],"groupnameFontsize":14,"groupedgeColor":null,"chordedgeColor":"#808080","categoryNames":["Parlamendi usaldus","Huvi poliitika vastu"],"categorynamePadding":100,"categorynameFontsize":28,"showTicks":false,"tickInterval":10,"ticklabelFontsize":10,"fadeLevel":0.1,"showTooltips":true,"showZeroTooltips":true,"tooltipNames":["Üldse ei usalda","Ei usalda","Neutraalne","Natuke usaldan","Usaldan täielikult","Väga huvitatud","Üsna huvitatud","Vaevalt huvitatud","Pole üldse huvitatud"],"tooltipFontsize":12,"tooltipUnit":"","tooltipGroupConnector":" &#x25B6; ","precision":"null","clickAction":null,"clickGroupAction":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-d6fdd40b73b78368a840" style="width:672px;height:480px;" class="chorddiag html-widget"></div>
+<script type="application/json" data-for="htmlwidget-d6fdd40b73b78368a840">{"x":{"matrix":[[0,0,0,0,0,20,31,78,55],[0,0,0,0,0,21,96,138,60],[0,0,0,0,0,47,266,362,103],[0,0,0,0,0,29,148,162,45],[0,0,0,0,0,14,34,33,8],[20,21,47,29,14,0,0,0,0],[31,96,266,148,34,0,0,0,0],[78,138,362,162,33,0,0,0,0],[55,60,103,45,8,0,0,0,0]],"options":{"type":"bipartite","width":null,"height":null,"margin":90,"showGroupnames":true,"groupNames":["Üldse ei usalda","Ei usalda","Neutraalne","Natuke usaldan","Usaldan täielikult","Väga huvitatud","Üsna huvitatud","Vaevalt huvitatud","Pole üldse huvitatud"],"groupColors":["#F7F7F7","#CCCCCC","#969696","#636363","#252525","#1B9E77","#D95F02","#7570B3","#E7298A"],"groupThickness":0.1,"groupPadding":0.0349065850398866,"groupnamePadding":[10,10,10,10,10,10,10,10,10],"groupnameFontsize":14,"groupedgeColor":null,"chordedgeColor":"#808080","categoryNames":["Parlamendi usaldus","Huvi poliitika vastu"],"categorynamePadding":100,"categorynameFontsize":28,"showTicks":false,"tickInterval":10,"ticklabelFontsize":10,"fadeLevel":0.1,"showTooltips":true,"showZeroTooltips":true,"tooltipNames":["Üldse ei usalda","Ei usalda","Neutraalne","Natuke usaldan","Usaldan täielikult","Väga huvitatud","Üsna huvitatud","Vaevalt huvitatud","Pole üldse huvitatud"],"tooltipFontsize":12,"tooltipUnit":"","tooltipGroupConnector":" &#x25B6; ","precision":"null","clickAction":null,"clickGroupAction":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="ülesanne-6-5-punkti---shiny-rakendus" class="section level3">
 <h3>Ülesanne 6 (5 punkti) - shiny rakendus</h3>
