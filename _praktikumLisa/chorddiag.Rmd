@@ -76,7 +76,7 @@ Praktikumi andmed on võimalik kätte saada kahel viisil:
 * kasutada paketti `essurvey`, mis eeldab aga [ESS kodulehel](https://www.europeansocialsurvey.org/user/new) enda registreerimist, sest paketiga andmete pärimine nõuab registreeritud e-posti aadressi. Registreerimine on peamiselt kasutusstatistika kogumiseks, sest tegemist on tasuta andmetega ja projekt peab ennast rahastajatele õigustama. Spämioht puudub.
 * Lae andmed allikast: [aine kodulehel valmis andmestik](../data/ESS9EE.sav) **VÕI** [Euroopa Sotsiaaluuringu kodulehelt](https://www.europeansocialsurvey.org/data/round-index.html) (ESS kodulehelt allalaadimiseks on samuti vaja ennast registreerida). Seal saab alla laadida erinevate statistika tarkvarade formaate. Hetkel on valitud SPSS formaat.
 
-**Esimese variandi** puhul andmete R-i importimiseks ja vajalike tunnuste eraldamiseks toimi järgmiselt:
+**Esimese variandi (1 boonuspunkt)** puhul andmete R-i importimiseks ja vajalike tunnuste eraldamiseks toimi järgmiselt:
 
 ```{r, eval = FALSE}
 install.packages('essurvey')
