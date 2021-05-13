@@ -51,8 +51,8 @@ Shiny rakendus, mis annab kasutajale reaalajas uueneva ülevaate koroonaviiruse 
 Shiny rakendus mis põhineb spordiregistri harrastajate andmetel. Kasutatud on 2010.-2019. aasta andmestikke - iga andmestiku kohta on teada vastavalt iga spordiala kohta mitu meest, naist, poissi ja tüdrukut seda ala harrastas antud aastal. Kasutaja saab rakenduses valida nii aastaid, spordiala ning gruppi, keda soovib uurida. Vastavalt oma valikutele saab näha harrastajate arvu, protsentuaalset jagunemist ja võrrelda erinevate aastate tulemusi. 
 
 
-## [COVID-19 mõju - TÜ õppeainete tulemused ja tagasiside](https://rkursus.shinyapps.io/statvis2021_ty_covid19_moju/)
-Shiny rakendus, mis võimaldab interaktiivselt uurida COVID-19 pandeemia ja sellest tingitud piirangute mõju uurimine Tartu Ülikooli õppeainete hinnete ja tagasiside abil.
+## [Hinnete ja tagasiside visualiseerimine](https://rkursus.shinyapps.io/statvis2021_ty_covid19_moju/)
+Shiny rakendus, mis võimaldab interaktiivselt uurida Tartu Ülikooli õppeainete hindeid ja tagasisidet ning selle abil ka COVID-19 pandeemia ja sellest tingitud piirangute mõju.
 
 ## [Riigieksamite tulemuste visualiserimine](https://rkursus.shinyapps.io/statvis2021_riigieksamid/)
 Eesti riigieksamite tulemuste visualiseerimise rakendus, mis kajastab erinevate aastate ja ainete tulemusi. Andmed pärinevad Eksamite infosüsteemi andmebaasist.
