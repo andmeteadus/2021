@@ -54,7 +54,7 @@ Shiny rakendus mis põhineb spordiregistri harrastajate andmetel. Kasutatud on 2
 ## [Hinnete ja tagasiside visualiseerimine](https://rkursus.shinyapps.io/statvis2021_ty_covid19_moju/)
 Shiny rakendus, mis võimaldab interaktiivselt uurida Tartu Ülikooli õppeainete hindeid ja tagasisidet ning selle abil ka COVID-19 pandeemia ja sellest tingitud piirangute mõju.
 
-## [Riigieksamite tulemuste visualiserimine](https://rkursus.shinyapps.io/statvis2021_riigieksamid/)
+## [Riigieksamite tulemuste visualiserimine](https://meritkangro.shinyapps.io/RE_app/)
 Eesti riigieksamite tulemuste visualiseerimise rakendus, mis kajastab erinevate aastate ja ainete tulemusi. Andmed pärinevad Eksamite infosüsteemi andmebaasist.
 
 <!--## [Erakondade rahastus]()
