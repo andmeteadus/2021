@@ -27,8 +27,8 @@ RMK soode taastamise avaandmed on puhastatud ja standardiseeritud ning valminud 
 Shiny rakendus, millelt on lihtne saada ülevaade Eesti maakondades toimunud päästesündmustest (näiteks tulekahjud,üleujutused jms). Andmed on saadud [päästeameti kodulehelt](https://www.rescue.ee/et/paeaestesuendmuste-statistika).
 
 
-## [New Yorgi kodumajutuste ja söögikohtade kaardirakendus](https://rkursus.shinyapps.io/statvis2021_ny_kodumajutus/)
-Shiny rakenduse, kus kasutaja saab võrrelda erinevaid New Yorgi kodumajutusi ja selle läheduses asuvaid söögikohti, et parim majutuskoht valida. Visualiseerime majutus- ja söögikohtasid kaardil. Andmed pärinevad [New Yorgi kiirtoidukohtade andmestikust](https://data.world/datafiniti/fast-food-restaurants-across-america/workspace/file?filename=Datafiniti_Fast_Food_Restaurants.csv), [pitsarestoranide andmestikust](https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell?fbclid=IwAR0hDUNMV8KlGML8Wi5BU_KpUcdd2fUT-BiBnNER3xup5N8wsR9B5L35eOE&select=Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv) ja [Airbnb andmestikust](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data).
+## [New Yorgi kodumajutuste ja pitsarestoranide kaardirakendus](https://statprojekt.shinyapps.io/PROJEKT/)
+Shiny rakendus, kus kasutaja saab võrrelda erinevate New Yorgi piirkondade kodumajutuste hindu ning vaadata nende läheduses asuvate pitsarestoranide arvu ja enimpakutavaid pitsasid menüüdes, et enda jaoks parim majutuskoht valida. Visualiseerime majutus- ja söögikohtasid kaardil. Andmed pärinevad New Yorgi [pitsarestoranide andmestikust](https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell?select=Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv) ja [Airbnb andmestikust](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data).
 
 
 ## [Jalgpalli Premium Liiga 2020. aasta hooaja ülevaade](https://2pauku.shinyapps.io/projekt/)
@@ -51,10 +51,10 @@ Shiny rakendus, mis annab kasutajale reaalajas uueneva ülevaate koroonaviiruse 
 Shiny rakendus mis põhineb spordiregistri harrastajate andmetel. Kasutatud on 2010.-2019. aasta andmestikke - iga andmestiku kohta on teada vastavalt iga spordiala kohta mitu meest, naist, poissi ja tüdrukut seda ala harrastas antud aastal. Kasutaja saab rakenduses valida nii aastaid, spordiala ning gruppi, keda soovib uurida. Vastavalt oma valikutele saab näha harrastajate arvu, protsentuaalset jagunemist ja võrrelda erinevate aastate tulemusi. 
 
 
-## [COVID-19 mõju - TÜ õppeainete tulemused ja tagasiside](https://rkursus.shinyapps.io/statvis2021_ty_covid19_moju/)
-Shiny rakendus, mis võimaldab interaktiivselt uurida COVID-19 pandeemia ja sellest tingitud piirangute mõju uurimine Tartu Ülikooli õppeainete hinnete ja tagasiside abil.
+## [Hinnete ja tagasiside visualiseerimine](https://rkursus.shinyapps.io/statvis2021_ty_covid19_moju/)
+Shiny rakendus, mis võimaldab interaktiivselt uurida Tartu Ülikooli õppeainete hindeid ja tagasisidet ning selle abil ka COVID-19 pandeemia ja sellest tingitud piirangute mõju.
 
-## [Riigieksamite tulemuste visualiserimine](https://rkursus.shinyapps.io/statvis2021_riigieksamid/)
+## [Riigieksamite tulemuste visualiserimine](https://meritkangro.shinyapps.io/RE_app/)
 Eesti riigieksamite tulemuste visualiseerimise rakendus, mis kajastab erinevate aastate ja ainete tulemusi. Andmed pärinevad Eksamite infosüsteemi andmebaasist.
 
 <!--## [Erakondade rahastus]()
