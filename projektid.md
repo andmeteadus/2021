@@ -31,7 +31,7 @@ Shiny rakendus, millelt on lihtne saada ülevaade Eesti maakondades toimunud pä
 Shiny rakenduse, kus kasutaja saab võrrelda erinevaid New Yorgi kodumajutusi ja selle läheduses asuvaid söögikohti, et parim majutuskoht valida. Visualiseerime majutus- ja söögikohtasid kaardil. Andmed pärinevad [New Yorgi kiirtoidukohtade andmestikust](https://data.world/datafiniti/fast-food-restaurants-across-america/workspace/file?filename=Datafiniti_Fast_Food_Restaurants.csv), [pitsarestoranide andmestikust](https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell?fbclid=IwAR0hDUNMV8KlGML8Wi5BU_KpUcdd2fUT-BiBnNER3xup5N8wsR9B5L35eOE&select=Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv) ja [Airbnb andmestikust](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data).
 
 
-## [Jalgpalli Premium Liiga 2020. aasta hooaja ülevaade](https://rkursus.shinyapps.io/statvis2021_jalgpall/)
+## [Jalgpalli Premium Liiga 2020. aasta hooaja ülevaade](https://2pauku.shinyapps.io/projekt/)
 Shiny rakendus, millest saab välja lugeda üldisema statistika 2020. aasta hooaja kohta, sh. väravalööjad, kaardid, enim mänginud mängijad, publikuarvu poolest populaarseimad matšid jne. Andmed on saadud kraapimisega [EJL kodulehelt](https://jalgpall.ee/voistlused/52/liigad/calendar?season=2020) ning [Sportsradari Premium Liiga ülevaatest](https://s5.sir.sportradar.com/sportradar/et/1/season/75133/standings).
 
 
