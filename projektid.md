@@ -16,7 +16,7 @@ Kus on need Eestimaa parimad rannad, kus rahvast ei käi ülearu palju ja samas 
 Shiny rakendus, mis visualiseerib Eestis vaadatavaid filme ja sarju (näiteks kõige uuemad sarjad või 100 populaarsemat filmi). Andmed saame kraapimisega veebilehelt https://www.flixwatch.co/
 
 ## [Euroopa Sotsiaaluuringu andmete visualiseerimine](https://rkursus.shinyapps.io/statvis2021_ess/)
-Shiny rakendus, mis võimaldab visualiseerida Euroopa Sotsiaaluuringu (ESS) raames Eesti kohta kogutud andmeid. Vt veel [ESS kodulehelt](http://www.europeansocialsurvey.org/).
+Shiny rakendus, mis võimaldab visualiseerida Euroopa Sotsiaaluuringu (ESS) raames Eesti kohta kogutud rahulolu andmeid. Vt veel [ESS kodulehelt](http://www.europeansocialsurvey.org/).
 
 
 ## [RMK soode taastamine](https://rkursus.shinyapps.io/statvis2021_rmk/)
@@ -57,8 +57,11 @@ Shiny rakendus, mis võimaldab interaktiivselt uurida Tartu Ülikooli õppeainet
 ## [Riigieksamite tulemuste visualiserimine](https://meritkangro.shinyapps.io/RE_app/)
 Eesti riigieksamite tulemuste visualiseerimise rakendus, mis kajastab erinevate aastate ja ainete tulemusi. Andmed pärinevad Eksamite infosüsteemi andmebaasist.
 
-<!--## [Erakondade rahastus]()
-Rakendus, mis võimaldav analüüsida erakondadele tehtud annetusi ja kulutusi. Muuhulgas uurida näiteks, kui tugevalt on valimistulemus ja valimiskampaaniaks tehtud kulutused korreleeritud. Andmete allikas: [Erakondade Rahastamise Järelvalve Komisjon](http://www.erjk.ee) ja  [Vabariigi Valimiskomisjon](http://www.vvk.ee).-->
+## [Erakondade rahastus](https://rkursus.shinyapps.io/statvis2021_erakondade_rahastus/)
+Rakendus, mis võimaldav analüüsida erakondadele tehtud annetusi ja kulutusi. Muuhulgas uurida näiteks, kui tugevalt on valimistulemus ja valimiskampaaniaks tehtud kulutused korreleeritud. Andmete allikas: [Erakondade Rahastamise Järelvalve Komisjon](http://www.erjk.ee).
+
+## [EMI kalabioloogia töörühma seireandmed 1993-2020](https://rkursus.shinyapps.io/statvis2021_kalapyyk/)
+Tegemist on kalade seireandmeid illustreeriva Shiny rakendusega. Rakendus kajastab kalastiku liigirohkust ja varieeruvust aastate lõikes erinevates Eesti Mereinstituudi seirejaamades. Lisaks saab kasutaja ülevaatliku info tüüpilisematest püütud kaladest. Andmed pärinevad Eesti Mereinstituudi kalabioloogia töörühmast. 
 
 Vt. ka [2020. aasta projekte](https://andmeteadus.github.io/2020/projektid/)
 
