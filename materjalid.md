@@ -30,6 +30,7 @@ E-raamatud:
 
 ## Veel kasulikke linke:
 
+* [R for cats](https://rforcats.net/)
 * [LTMS.00.016 Rakendustarkvara: R](https://rkursus.github.io/sygis2019) - Eestikeelne R kursus.
 * Hulk [RStudio soovitatud raamatuid](https://rstudio.com/resources/books/) (mitmed tasuta _online_ versioonidega).
 * [R-bloggers](https://www.r-bloggers.com/) - Blogi huvitavatest R-i rakendustest.
