@@ -12,7 +12,9 @@ Praktikumi materjalid täienevad jooksvalt, 2019. aasta materjalidega saab tutvu
 Sissejuhatus ainesse, reprodutseeritavasse analüüsi ja automatiseeritud statistikasse. Tarkvara R meeldetuletamine. 
 Pakett knitr. Markdown. Pakett dplyr. Näide: automaatne aktsiaturu ülevaade. 
 
-* [Kursuse "Rakendustarkvara: R" õppematerjal](../rakendustarkvara_R). 
+* [Kursuse "Rakendustarkvara: R" õppematerjal](https://rkursus.github.io/2021/)....
+* VÕI [R kassidele](https://rforcats.net/)
+
 * Praktikumis kasutatud materjalid:
     * [Slaidid](../pr1_esitlus.pdf) (korralduslik info)
     * Sisenege [Socrative](https://b.socrative.com/login/student/) keskkonda
